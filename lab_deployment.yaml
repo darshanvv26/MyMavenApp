@@ -15,7 +15,7 @@ spec:
         app: mavenapp
     spec:
       containers:
-      - name: labmaven
+      - name: java1
         image: darshanvv26/java:latest
         ports:
         - containerPort: 8080
