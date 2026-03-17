@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mavenapp
+  name: MyJavaApp
   labels:
-    app: mavenapp
+    app: MyJavaApp
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: mavenapp
+      app: MyJavaApp
   template:
     metadata:
       labels:
-        app: mavenapp
+        app: MyJavaApp
     spec:
       containers:
       - name: java1
